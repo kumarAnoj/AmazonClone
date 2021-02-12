@@ -10,6 +10,10 @@
 .header_menu{
     display:flex;
 }
+
+.header_menu > div{
+    margin: 10px;
+}
 .header_menu_logo{
     object-fit: contain;
     width:100px;
@@ -20,3 +24,15 @@
     display: flex;
     flex-direction: column;
 }
+
+.header_menu_top_item{
+    font-size: 10px;
+    color: lightgray;
+    /* color: red; */
+}
+.header_menu_bottom_item{
+    font-size: 13px;
+    /* color: lightgray; */
+    font-weight: 800;
+}
+
